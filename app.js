@@ -1,0 +1,1 @@
+import makeMeAPromise from './i'
