@@ -4,11 +4,21 @@ const response = getData();
 
 console.log(response)
 
-const doThis = (data) => {
-    console.log(`do something with this data`, data)
+const firstTask = (data) => {
+    console.log(data)
+    return {
+        ...data,
+        color: 'pink'
+    };
+}
+const secondTask = (data) => {
+    console.log(data);
+    console.log(data.color);
 }
 
-response.then(doThis)
+response
+    .then(firstTask)
+    .then(secondTask)
 
 // console.log(response)
 
