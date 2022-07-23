@@ -1,3 +1,4 @@
+
 // import makeMeAPromise from './index.js'
 
 // const data = {
@@ -24,5 +25,6 @@ p.then((message) => {
 }).catch((message) => {
     console.log('This is the in the catch ' + message);
 });
+
 
 
